@@ -14,6 +14,6 @@ public class UsuarioChat extends Usuario {
 
     @Override
     public void recibir(String mensaje) {
-        areaChat.appendText(nombre + ": " + mensaje + "\n");
+        areaChat.appendText("Enviado a "+ nombre + ": " + mensaje + "\n");
     }
 }
